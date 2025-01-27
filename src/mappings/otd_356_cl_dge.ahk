@@ -7,11 +7,20 @@
 AddKeyboardMenu()
 SetMenuCheckMark(MAPPING_DGE)
 
-LAlt::LAlt
-LCtrl::LCtrl
-CapsLock::CapsLock
+; The DGE has the following built-in mapping
+; LCtrl -> LWin
+; LAlt -> LAlt
+; CapsLock -> RCtrl
 
-RAlt::RAlt
-RCtrl::RCtrl
+; RAlt -> RAlt
+; RCtrl -> RCtrl
+
+; ScrollLock -> CapsLock
+
+LAlt::LWin
+LWin::LAlt
+
+RAlt::RWin
+RCtrl::RAlt
 
 SaveLastUsedMapping(MAPPING_DGE)
